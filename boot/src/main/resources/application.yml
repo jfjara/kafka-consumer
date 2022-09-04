@@ -1,0 +1,7 @@
+server:
+  port: 8085
+consumer:
+  config:
+    topic: "test-topic"
+    servers: "localhost:9092"
+    group-id: "group-consumer-1"
